@@ -1,2 +1,28 @@
 Link para download do Git : https://git-scm.com/install/windows
 Git Bash e um terminal excelente para otimizar o uso do Git.
+
+Codigos usados no Git
+🚀 Inicialização e Clonagem
+git init: Cria um repositório Git totalmente novo na sua pasta atual.
+git clone <url>: Copia um repositório que já existe na internet para o seu computador.
+📝 Trabalho Diário e Envio de Alterações
+git status: Mostra o estado atual dos seus arquivos (quais mudaram ou foram criados).
+git add .: Adiciona todas as modificações e novos arquivos para a área de preparação (staging area).
+git add <nome-do-arquivo>: Adiciona apenas um arquivo específico para a área de preparação.
+git commit -m "sua mensagem": Grava as alterações salvas na área de preparação permanentemente no histórico.
+git push: Envia todos os seus commits locais para o repositório remoto na internet (como o GitHub).
+
+🔄 Sincronização e Atualizaçãogit pull: Baixa as novidades do servidor remoto e as junta diretamente no seu código atual.
+git fetch: Baixa o histórico do servidor remoto para ver o que mudou, mas sem alterar seus arquivos locais.
+
+🌿 Ramificações (Branches)git branch: Lista todas as ramificações existentes no seu projeto.
+git branch <nome-da-branch>: Cria uma nova ramificação para desenvolver uma funcionalidade isolada.
+git checkout <nome-da-branch>: Alterna o seu ambiente de trabalho para a ramificação escolhida.
+git switch <nome-da-branch>: Uma alternativa mais moderna ao comando anterior para mudar de ramificação.
+git merge <nome-da-branch>: Junta as alterações da ramificação escolhida na ramificação em que você está no momento.
+
+🔍 Histórico e Inspeçãogit log: Exibe a lista cronológica de todos os commits realizados no projeto.
+
+ Configuração Inicial (Apenas na primeira vez no PC)Antes de tudo, o Git precisa saber quem é você para registrar nos commits:
+git config --global user.name "Seu Nome"
+git config --global user.email "seu.email@provedor.com"
